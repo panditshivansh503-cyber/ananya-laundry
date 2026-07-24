@@ -1,0 +1,115 @@
+@media(max-width:992px){.process-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+padding:100px 0;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+.buttons{
+
+justify-content:center;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+}
+
+}/* ==========================
+   TABLET (992px)
+========================== */
+
+@media (max-width: 992px) {.about-container{
+
+grid-template-columns:1fr;
+
+}
+
+.about-content{
+
+text-align:center;
+
+}
+
+.about-list{
+
+grid-template-columns:1fr;
+
+}.why-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    /* ===== SERVICES ===== */
+
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+}.pricing-grid{
+
+grid-template-columns:1fr;
+
+}.testimonial-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.featured{
+
+transform:scale(1);
+
+}.stats-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}@media(max-width:576px){
+
+.stats-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}.cta-box h2{
+
+font-size:32px;
+
+}
